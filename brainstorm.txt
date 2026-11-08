@@ -1,0 +1,28 @@
+needed inputs:
+pos, speed relative to center. 
+pitch/yaw relative to center
+opp. pos, speed relative to player
+opp. angle rel. to player
+on ground
+ticks since gotten hit/hit on opponent
+
+
+
+
+proposed:
+distance relative to center
+pitch yaw relative to the center-agent ray?
+opponent relative x, y, z (z is relative to ground)
+opponent pitch yaw relative to opponent-agent ray?
+relative velocity, opponent relative velocity (rel to you)
+is currently sprinting
+ticks since you were last hit
+ticks since opponent was last hit
+tick budget
+
+
+pos relative to center or just distance? 
+onground is important definitely
+is sprinting?
+
+shift to polar coords?

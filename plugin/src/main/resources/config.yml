@@ -1,0 +1,15 @@
+# Local trainer only. Minecraft itself still uses port 25565.
+bridge-port: 8765
+# Python sends a heartbeat every 5 seconds. A silent trainer is disconnected.
+bridge-read-timeout-seconds: 30
+arena:
+  name: sumo
+  world: world
+  # Build the platform yourself before starting a round. These are feet positions.
+  spawn-a: {x: -2.5, y: 65.0, z: 0.5, yaw: -90.0, pitch: 0.0}
+  spawn-b: {x: 3.5, y: 65.0, z: 0.5, yaw: 90.0, pitch: 0.0}
+  loss-y: 60.0
+  max-round-ticks: 1200
+  prepare-ticks: 5
+  # Abort if the trainer never starts after reset.
+  ready-timeout-ticks: 400

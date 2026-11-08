@@ -1,0 +1,4 @@
+name: SumoTraining
+main: local.sumotraining.SumoTrainingPlugin
+version: 1.0.0
+description: Local training arena bridge for Minecraft 1.8.8
